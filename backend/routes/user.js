@@ -7,6 +7,6 @@ router.get("/", (req, res) => {
   res.send("Hello from home page.");
 });
 
-router.post("/user-create", createUser);
+router.post("/create", createUser);
 
 module.exports = router;
